@@ -1,0 +1,14 @@
+v0.2 audio; Arm GNU Toolchain 12.3.Rel1; clean -O2 build: 0 errors, 0 warnings.
+Host ASan/UBSan audio tests: PASS (leak scan disabled for sandbox).
+Physical hardware/audio quality and CubeIDE GUI: NOT TESTED.
+NES core/ROM bytes match v0.1.
+Initial SP 0x20050000, reset vector 0x08025039
+
+08023b90 T DMA2_Stream3_IRQHandler
+08023b9c T SAI1_IRQHandler
+200006bc b dma_pcm
+20001db4 b queue
+2002b2ac B _ebss
+2004a000 B __stack_limit__
+
+SHA256 HEX: 22a2c15f4d81ba91fbb0096490ef1e1e6dca03cb6da0a7c4411911c13660dbbd

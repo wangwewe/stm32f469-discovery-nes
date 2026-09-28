@@ -1,0 +1,14 @@
+bsp: https://github.com/STMicroelectronics/32f469idiscovery-bsp.git @ 6d0dc370bf3819f2a7aaabbec83b909c86506169
+hal: https://github.com/STMicroelectronics/stm32f4xx-hal-driver.git @ 1f6451c3e07728b4c830744de380e56bf5bc0026
+device: https://github.com/STMicroelectronics/cmsis-device-f4.git @ a833f4af71410f25b01468f976560d7ff63a2fc9
+cmsis: https://github.com/ARM-software/CMSIS_5.git @ 2b7495b8535bdcb306dac29b9ded4cfb679d7e5c
+common: https://github.com/STMicroelectronics/stm32-bsp-common.git @ 6893c33e9a5ebbcea1b23f3137f8a1d87753947d
+otm8009a: https://github.com/STMicroelectronics/stm32-otm8009a.git @ d8caa51709b6beabc28ff40268c513c74bad11f1
+nt35510: https://github.com/STMicroelectronics/stm32-nt35510.git @ 28c54d41d6cf2ace41a27f432b629919ba9eae92
+ft6x06: https://github.com/STMicroelectronics/stm32-ft6x06.git @ 8b2bc8c3fbb67369c095324df7523f7c6303a121
+
+Common/ts.h: legacy TS_DrvTypeDef interface retained from the supplied, tested F429 project (ST header). Other Common headers use the revision above.
+
+v0.2: stm32469i_discovery_audio.c/.h are output-only subsets of the BSP revision above.
+Common/audio.h: legacy F429 interface extended with DeInit(void) to match the CS43L22 component.
+cs43l22: https://github.com/STMicroelectronics/stm32-cs43l22.git @ 5d4f2cbd223a3fdd76a222e64fa81ec379abc444
