@@ -1,6 +1,9 @@
 # stm32f469-discovery-nes
 NES emulator for the STM32F469 Discovery board, featuring touchscreen controls and CS43L22 audio output. Built with STM32CubeIDE.
 
+## Demo Video
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/LNlBbKvBMS0/0.jpg)](https://www.youtube.com/watch?v=LNlBbKvBMS0 "NES emulator for the STM32F469 Discovery board")
+
 ## STM32F469 Discovery NES Changelog
 
 1. v0.1: No audio support.
